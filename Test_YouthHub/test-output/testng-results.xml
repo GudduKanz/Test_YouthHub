@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46921" started-at="2019-08-07T12:50:47Z" finished-at="2019-08-07T12:51:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46921" started-at="2019-08-07T12:50:47Z" finished-at="2019-08-07T12:51:34Z">
+      <class name="Applicationtest.Myscripts">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Applicationtest.Myscripts@7ac7a4e4]" name="beforeMethod" is-config="true" duration-ms="15288" started-at="2019-08-07T18:20:47Z" finished-at="2019-08-07T18:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Signin(java.lang.String, java.lang.String)[pri:0, instance:Applicationtest.Myscripts@7ac7a4e4]" name="Signin" duration-ms="26750" started-at="2019-08-07T18:21:07Z" data-provider="Test" finished-at="2019-08-07T18:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ioanasala-setiu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trd@sm21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Applicationtest.Myscripts@7ac7a4e4]" name="afterMethod" is-config="true" duration-ms="71" started-at="2019-08-07T18:21:33Z" finished-at="2019-08-07T18:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Signin status=SUCCESS method=Myscripts.Signin(java.lang.String, java.lang.String)[pri:0, instance:Applicationtest.Myscripts@7ac7a4e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Applicationtest.Myscripts@7ac7a4e4]" name="endReport" is-config="true" duration-ms="160" started-at="2019-08-07T18:21:33Z" finished-at="2019-08-07T18:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Applicationtest.Myscripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
