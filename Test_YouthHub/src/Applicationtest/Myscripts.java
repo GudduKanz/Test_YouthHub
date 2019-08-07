@@ -36,7 +36,7 @@ public class Myscripts {
 	  
   }
   
-  @Test(priority=1,enabled=false)
+  @Test(priority=1)
   public void Share() {
 	  PageCodes obj1 = PageFactory.initElements(driver, PageCodes.class);
 	  obj1.Shareanupdate("Happy to be hear");
